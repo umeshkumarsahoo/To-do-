@@ -1,0 +1,11 @@
+.header{
+    background-color: rgba(40, 81, 61, 0.955);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vmax;
+    position: inherit;
+}
+.head{
+    margin-left: 10px;
+}

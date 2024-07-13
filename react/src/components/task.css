@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+}
+.all{
+    margin: 50px;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: inherit;
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 50px 30px 0 rgba(0,0,0,0.37);
+}
+.tasks{
+    border-radius: 20px;
+    margin: 50px;
+    width: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: inherit;
+}
+input{
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgba(106, 176, 120, 0.375);
+    height:40px;
+    width: 15rem;
+    margin-right: 15px;
+}
+.create{
+    border-style: none;
+    background: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:60px;
+    height:50px;
+}
+.list{
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+}
+.total{
+    margin-left: 10px;
+    color: rgb(255, 229, 181) ;
+}
+.cmplt{
+    margin-right: 10px;
+    color: rgb(244, 215, 178);
+
+}

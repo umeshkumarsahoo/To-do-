@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+body{
+    background-image:url(https://images.pexels.com/photos/18069423/pexels-photo-18069423/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-assist-in-genomic-studies-and-its-applications-it-was-created-by-artist-nidia-dias-as-part-of-the.png?auto=compress&cs=tinysrgb&w=800);
+    background-color: black;
+    min-height: 10rem;
+}
+button{
+    cursor: pointer;
+}
+.task_lists{
+    color: black;
+    font-size:small;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 1rem 1rem 1rem 10px;
+}
+.unordered{
+    list-style:none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+.list{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+.check_box{
+    padding: 10px 10px;
+    max-height: 2vmax;
+    max-width: 2vmax;
+    cursor: pointer;
+}
+.cmplt{
+    padding: 10px 10px;
+    color: black;
+    margin-right: 40px;
+
+}
+.delete{
+    margin:10px 10px;
+    max-width:70px;
+    max-height:90px;
+    border: none;
+    background: none;
+}
+.no_task{
+    padding: 10px 60px;
+}
+
